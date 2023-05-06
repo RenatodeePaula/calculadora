@@ -1,0 +1,28 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: linear-gradient(to right, black, crimson);
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;    
+}
+
+#calculator {
+    text-align: center;
+    margin: 160px auto;
+    background-color: black;
+    width: 320px;
+    height: 530px;
+    border-radius: 15px;
+}
+
+#calculator h2 {
+    margin: 15px;
+}
