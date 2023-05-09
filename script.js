@@ -7,20 +7,16 @@ function insert(digt) {
     return numTot  
 };
 
-
-
 function clean() {
-    result.innerHTML = '';
-    
+    result.innerHTML = '';    
 };
 
 function back() {   
     let result = document.querySelector('#result').innerHTML;
     paragraph.innerHTML = result.substring(0, result.length -1);
-
 };
 
 function calcular() {
     let result = document.querySelector("#result").innerHTML;   
-        document.querySelector('#result').innerHTML = eval(result);    
+    paragraph.innerHTML = eval(result);    
 }
