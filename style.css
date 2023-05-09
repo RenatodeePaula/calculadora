@@ -16,13 +16,54 @@ body {
 
 #calculator {
     text-align: center;
-    margin: 160px auto;
-    background-color: black;
+    margin: 100px auto;
+    background-color: rgba(0, 0 ,0, .7);
     width: 320px;
-    height: 530px;
+    height: 460px;
     border-radius: 15px;
 }
 
 #calculator h2 {
     margin: 15px;
+}
+
+#calculator p {
+    text-align: right;
+    
+    width: 290px;
+    height: 40px;
+    background: white;
+    margin: 0 auto 20px;  
+    font-size: 35px;
+    color:black;
+    padding-right: 10px;
+}
+
+table {
+    margin: auto;
+}
+
+.buttons {
+    font-size: 22px;
+    width: 70px;
+    height: 60px;
+
+    cursor: pointer;
+    color: white;
+    background: rgb(31, 31, 31) ;
+    border: none;
+    margin:1px
+}
+
+.buttons:hover {
+    background: black;
+    transition: .6s;
+}
+
+.igual {
+    height: 125px;    
+}
+
+.zero {
+    width: 140px;
 }
